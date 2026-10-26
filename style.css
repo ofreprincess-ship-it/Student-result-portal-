@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #17134c;
+}
+
+.portal {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px 20px;
+    background: linear-gradient(
+        to bottom,
+        #9a8de9,
+        #c8c1ed 65%,
+        #eeeeee
+    );
+    border-left: 4px solid #514b94;
+    border-right: 4px solid #514b94;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #100c50;
+}
+
+.subtitle {
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+}
+
+label {
+    display: block;
+    color: #bd6487;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    font-size: 19px;
+    margin-bottom: 2px;
+    border: 1px solid #888;
+    background-color: #fffde7;
+}
+
+input:focus {
+    outline: 2px solid #7966d7;
+}
+
+button {
+    background-color: #7763d0;
+    color: white;
+    border: none;
+    padding: 20px 24px;
+    margin-top: 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5542ad;
+}
+
+.result-title {
+    color: #7452a4;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+
+thead {
+    background-color: #7966ce;
+    color: white;
+}
+
+th, td {
+    padding: 18px 12px;
+}
+
+tbody tr {
+    background-color: #eeeeee;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .portal {
+        width: 100%;
+        padding: 18px 12px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 12px 6px;
+    }
+}
